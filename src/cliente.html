@@ -14,7 +14,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <title>Selaria SGV .::. Fechamento da Compra</title>
+    <title>Selaria SGV .::. Cliente</title>
 </head>
 
 <body style="min-width: 360px;">
@@ -59,80 +59,46 @@
 
     <main>
         <div class="container">
-            <h1>Confira os Itens</h1>
-            <h3>Após conferência, clique em <b>Continuar</b> para prosseguir para
-                as <b>Informações de Pagamento e Entrega</b>.</h3>
-            <hr>
-            <ul class="list-group mb-3">
-                <li class="list-group-item py-3">
-                    <div class="row g-3">
-                        <div class="col-4 col-md-3 col-lg-2">
-                            <a href="#">
-                                <img src="/img/produtos/000008.jpg" class="img-thumbnail">
-                            </a>
-                        </div>
-                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-start align-self-center">
-                            <h4><b><a href="#" class="text-decoration-none text-danger">Abacate Manteiga</a></b></h4>
-                            <h4>
-                                <small>Abacate manteiga da melhor qualidade<br>
-                                    <b>4 unidade(s) <br>
-                                        R$ 15,96
-                                    </b>
-                                </small>
-                            </h4>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item py-3">
-                    <div class="row g-3">
-                        <div class="col-4 col-md-3 col-lg-2">
-                            <a href="#">
-                                <img src="/img/produtos/000008.jpg" class="img-thumbnail">
-                            </a>
-                        </div>
-                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-start align-self-center">
-                            <h4><b><a href="#" class="text-decoration-none text-danger">Abacate Manteiga</a></b></h4>
-                            <h4>
-                                <small>Abacate manteiga da melhor qualidade<br>
-                                    <b>4 unidade(s) <br>
-                                        R$ 15,96
-                                    </b>
-                                </small>
-                            </h4>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item py-3">
-                    <div class="row g-3">
-                        <div class="col-4 col-md-3 col-lg-2">
-                            <a href="#">
-                                <img src="/img/produtos/000008.jpg" class="img-thumbnail">
-                            </a>
-                        </div>
-                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-start align-self-center">
-                            <h4><b><a href="#" class="text-decoration-none text-danger">Abacate Manteiga</a></b></h4>
-                            <h4>
-                                <small>Abacate manteiga da melhor qualidade<br>
-                                    <b>4 unidade(s) <br>
-                                        R$ 15,96
-                                    </b>
-                                </small>
-                            </h4>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item py-3">
-                    <div class="text-end">
-                        <h4 class="text-dark mb-3">Valor Total: R$ 91919494,78</h4>
-                        <a href="/src/carrinho.html" class="btn btn-outline-success btn-lg">
-                            Voltar ao Carrinho
+            <h1>Minha Conta</h1>
+            <div class="row gx-3">
+                <div class="col-4">
+                    <div class="list-group">
+                        <a href="/src/cliente_dados.html" class="list-group-item list-group-item-action bg-selaria text-light">
+                            <svg class="bi" width="24" height="24" fill="currentColor">
+                                <use xlink:href="/bi.svg#person" />
+                            </svg> Dados Pessoais
                         </a>
-                        <a href="/src/fechamento.html" class="btn btn-danger btn-lg">
-                            Continuar
+                        <a href="/src/cliente_contatos.html" class="list-group-item list-group-item-action">
+                            <svg class="bi" width="24" height="24" fill="currentColor">
+                                <use xlink:href="/bi.svg#mailbox" />
+                            </svg> Contatos
+                        </a>
+                        <a href="/src/cliente_endereço.html" class="list-group-item list-group-item-action">
+                            <svg class="bi" width="24" height="24" fill="currentColor">
+                                <use xlink:href="/bi.svg#house" />
+                            </svg> Endereços
+                        </a>
+                        <a href="/src/cliente_pedidos.html" class="list-group-item list-group-item-action">
+                            <svg class="bi" width="24" height="24" fill="currentColor">
+                                <use xlink:href="/bi.svg#truck" />
+                            </svg> Pedidos
+                        </a>
+                        <a href="/src/cliente_senha.html" class="list-group-item list-group-item-action">
+                            <svg class="bi" width="24" height="24" fill="currentColor">
+                                <use xlink:href="/bi.svg#lock" />
+                            </svg> Alterar Senha
+                        </a>
+                        <a href="/index.html" class="list-group-item list-group-item-action">
+                            <svg class="bi" width="24" height="24" fill="currentColor">
+                                <use xlink:href="/bi.svg#door-open" />
+                            </svg> Sair
                         </a>
                     </div>
-                </li>
-            </ul>
+                </div>
+                <div class="col-8">
+
+                </div>
+            </div>
         </div>
     </main>
 
@@ -150,8 +116,7 @@
                     CNPJ 99.999.999/0001-99
                 </div>
                 <div class="col-12 col-md-4 text-center">
-                    <a href="/src/privacidade.html" class="text-decoration-none text-light">Politica de
-                        Privacidade</a><br>
+                    <a href="/src/privacidade.html" class="text-decoration-none text-light">Politica de Privacidade</a><br>
                     <a href="/src/termos.html" class="text-decoration-none text-light">Termos de Uso</a><br>
                     <a href="/src/quemsomos.html" class="text-decoration-none text-light">Quem Somos</a><br>
                     <a href="/src/trocas.html" class="text-decoration-none text-light">Trocas e Devoluções</a>
