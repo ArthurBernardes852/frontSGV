@@ -14,7 +14,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <title>Selaria SGV .::. Cliente</title>
+    <title>Selaria SGV .::. Cliente - contatos</title>
 </head>
 
 <body style="min-width: 360px;">
@@ -63,12 +63,12 @@
             <div class="row gx-3">
                 <div class="col-4">
                     <div class="list-group">
-                        <a href="/src/cliente_dados.html" class="list-group-item list-group-item-action bg-selaria text-light">
+                        <a href="/src/cliente_dados.html" class="list-group-item list-group-item-action">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/bi.svg#person" />
                             </svg> Dados Pessoais
                         </a>
-                        <a href="/src/cliente_contatos.html" class="list-group-item list-group-item-action">
+                        <a href="/src/cliente_contatos.html" class="list-group-item list-group-item-action bg-selaria text-light">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/bi.svg#mailbox" />
                             </svg> Contatos
@@ -96,7 +96,16 @@
                     </div>
                 </div>
                 <div class="col-8">
-
+                    <form action="">
+                        <div class="form-floating mb-3 col-md-8">
+                            <input class="form-control" type="email" id="txtEmail" placeholder=" " autofocus/>
+                            <label for="txtEmail">E-mail</label>
+                        </div>
+                        <div class="form-floating mb-3 col-md-6">
+                            <input class="form-control" type="text" id="txtTelefone" placeholder=" " />
+                            <label for="txtTelefone">Telefone</label>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
